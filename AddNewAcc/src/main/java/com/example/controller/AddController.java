@@ -14,6 +14,7 @@ public class AddController {
 	@PostMapping(value = "/add", consumes = { "application/json", "application/xml" })
 	public ResponseEntity<String> addAcc(@RequestBody Account account) {
 		return new ResponseEntity<String>("Account added successfully", HttpStatus.CREATED);
+		system.println("Lingesh");
 	}
 
 }
