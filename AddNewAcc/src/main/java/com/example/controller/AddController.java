@@ -15,6 +15,7 @@ public class AddController {
 	public ResponseEntity<String> addAcc(@RequestBody Account account) {
 		return new ResponseEntity<String>("Account added successfully", HttpStatus.CREATED);
 		system.println("Lingesh");
+
 	}
 
 }
